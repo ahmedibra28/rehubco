@@ -27,7 +27,7 @@ import Image from 'next/image'
 
 export default function Navigation() {
   return (
-    <nav className='border border-x-0 border-t-0'>
+    <nav className='borders border-x-0 border-t-0'>
       <div className='container flex min-h-20 flex-row items-center justify-between'>
         <Image
           className='h-16 w-auto'
