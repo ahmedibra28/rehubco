@@ -90,7 +90,7 @@ export default function Navigation() {
           </div>
 
           {/* for large screen */}
-          <div className='hidden flex-row lg:flex'>
+          <div className='hidden flex-row gap-x-1 lg:flex'>
             <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
