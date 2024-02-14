@@ -11,7 +11,7 @@ export default function Hero() {
         alt='hero'
         width={1920}
         height={1080}
-        className='w-full object-cover opacity-50 shadow-lg lg:h-[50rem]'
+        className='w-full object-cover opacity-50 shadow-lg lg:h-[90vh]'
       />
       <div className='container absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform space-y-1 text-center text-white md:space-y-2 lg:space-y-7'>
         <h1 className='text-xs duration-1000 md:text-lg'>

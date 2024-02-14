@@ -9,6 +9,18 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'png.pngtree.com'
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com'
+      },
+      {
+        protocol: 'https',
+        hostname: 'plus.unsplash.com'
+      },
+      {
+        protocol: 'https',
+        hostname: 'kamleshyadav.com'
       }
     ]
   }
