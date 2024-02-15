@@ -29,7 +29,7 @@ export default function Hero() {
 
       <div>
         <Button
-          className='absolute bottom-5 right-5 animate-bounce spin-in-1 md:bottom-16'
+          className='absolute bottom-5 right-5 animate-bounce rounded-full spin-in-1 md:bottom-12 lg:h-16 lg:w-52'
           size='lg'
         >
           <FaArrowRight className='mr-2' />

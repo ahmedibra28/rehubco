@@ -21,22 +21,21 @@ export default function About() {
         <h2 className='text-3xl font-bold'>We Provide You</h2>
         <h3 className='text-2xl text-primary'>Sustainable Future of Energy</h3>
         <p className='text-gray-500'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ad
-          blanditiis ipsam quas, aspernatur, atque numquam, esse dolorem porro
-          rerum fugiat! Repellat exercitationem facilis quis laborum sit libero
-          iure eius?
+          In 2017, Renewable Energy Hub Company, or REHUBCO, commenced its
+          operations in Hargeisa, Somaliland, expanding strategically into
+          Somalia, Kenya, and Djibouti.{' '}
         </p>
-        <ul className='ml-3 space-y-1 py-2 text-gray-500'>
-          {[1, 2, 3, 4].map(item => (
-            <li key={item} className='flex items-center justify-start gap-2'>
-              <FaCheck className='text-primary' />
-              <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                tenetur?
-              </span>
-            </li>
-          ))}
-        </ul>
+        <p className='text-gray-500'>
+          As a key player in the renewable energy sector, REHUBCO is a leading
+          provider of solar photovoltaic solutions, offering a range of services
+          from off-grid to on-grid solutions.{' '}
+        </p>
+        <p className='text-gray-500'>
+          Our commitment to delivering top-quality green energy products and
+          timely Engineering, Procurement, and Construction (EPC) services has
+          solidified our position in the industry.
+        </p>
+
         <Button>Read more</Button>
       </div>
     </div>

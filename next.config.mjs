@@ -21,6 +21,10 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'kamleshyadav.com'
+      },
+      {
+        protocol: 'https',
+        hostname: 'soleil.axiomthemes.com'
       }
     ]
   }
