@@ -1,6 +1,7 @@
 import About from '@/components/About'
 import Hero from '@/components/Hero'
 import Product from '@/components/Product'
+import Project from '@/components/Project'
 import Solution from '@/components/Solution'
 
 export default function Home() {
@@ -15,6 +16,9 @@ export default function Home() {
       </div>
       <div className='my-10'>
         <Product />
+      </div>
+      <div className='my-10'>
+        <Project />
       </div>
       <div className='my-32'></div>
     </section>

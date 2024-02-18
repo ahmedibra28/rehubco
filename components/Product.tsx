@@ -57,13 +57,10 @@ export default function Product() {
     }
   ]
   return (
-    <div className='container px-4'>
-      <div className='flex items-center justify-center gap-x-3 pb-10'>
-        <h1 className='text-2xl font-bold text-primary/50 md:text-4xl'>
-          Trending Items
-        </h1>
-        <hr className='w-44' />
-      </div>
+    <div className='containers px-4'>
+      <h1 className='my-3 text-center text-2xl font-bold text-primary/50 md:text-4xl'>
+        Trending Items
+      </h1>
       <Carousel
         opts={{
           align: 'start',
