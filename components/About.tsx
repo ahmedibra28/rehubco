@@ -14,10 +14,13 @@ export default function About() {
         className='my-auto h-[80%] w-full rounded-tl-xl rounded-tr-xl object-contain transition duration-500 ease-in-out hover:scale-105'
       />
       <div className='my-auto space-y-3'>
-        <div className='flex items-center gap-x-3'>
-          <h1 className='text-xl font-bold text-primary/50'>About Us</h1>
-          <hr className='w-44' />
+        <div className='my-5 flex items-center'>
+          <h1 className='pr-2 text-center text-2xl font-bold text-primary/50 md:text-4xl'>
+            About Us
+          </h1>
+          <hr className='flex-grow' />
         </div>
+
         <h2 className='text-3xl font-bold'>We Provide You</h2>
         <h3 className='text-2xl text-primary'>Sustainable Future of Energy</h3>
         <p className='text-gray-500'>

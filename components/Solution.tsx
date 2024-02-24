@@ -52,7 +52,7 @@ export default function Solution() {
 
             <CardContent className='flex items-center justify-between'>
               <h5 className='mt-4 text-left'>{item.title}</h5>
-              <FaSolarPanel className='text-end text-3xl text-primary' />
+              <FaSolarPanel className='mt-4 text-end text-3xl text-primary' />
             </CardContent>
           </Card>
         ))}
