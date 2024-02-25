@@ -5,6 +5,7 @@ import Partner from '@/components/Partner'
 import Product from '@/components/Product'
 import Project from '@/components/Project'
 import Solution from '@/components/Solution'
+import Widget from '@/components/Widget'
 
 export default function Home() {
   return (
@@ -27,6 +28,9 @@ export default function Home() {
       </div>
       <div className='my-20'>
         <Blog />
+      </div>
+      <div className='my-20'>
+        <Widget />
       </div>
       <div className='my-32'></div>
     </section>
