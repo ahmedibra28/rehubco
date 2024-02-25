@@ -21,7 +21,7 @@ export default function Blog() {
         <hr className='flex-grow' />
       </div>
 
-      <div className='grid grid-cols-1 gap-4 gap-y-32 p-4 md:grid-cols-2 lg:grid-cols-4'>
+      <div className='grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-4'>
         {[1, 2, 3, 4].map(item => (
           <Card key={item} className='border-none shadow'>
             <CardHeader>

@@ -1,5 +1,6 @@
 import About from '@/components/About'
 import Blog from '@/components/Blog'
+import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import Partner from '@/components/Partner'
 import Product from '@/components/Product'
@@ -32,7 +33,9 @@ export default function Home() {
       <div className='my-20'>
         <Widget />
       </div>
-      <div className='my-32'></div>
+      <div className='mt-20'>
+        <Footer />
+      </div>
     </section>
   )
 }
