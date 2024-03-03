@@ -29,14 +29,16 @@ export default function Navigation() {
   return (
     <nav className='borders border-x-0 border-t-0'>
       <div className='container flex min-h-20 flex-row items-center justify-between'>
-        <Image
-          className='h-16 w-auto'
-          width={60}
-          height={60}
-          alt='Rehubco logo'
-          src='/logo.png'
-          quality={100}
-        />
+        <Link href='/'>
+          <Image
+            className='h-16 w-auto'
+            width={60}
+            height={60}
+            alt='Rehubco logo'
+            src='/logo.png'
+            quality={100}
+          />
+        </Link>
 
         <Fragment>
           {/* for mobile and tab */}

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { Button } from '@/components/ui/button'
-import { FaCheck } from 'react-icons/fa'
+import Link from 'next/link'
 
 export default function About() {
   return (
@@ -39,7 +39,9 @@ export default function About() {
           solidified our position in the industry.
         </p>
 
-        <Button>Read more</Button>
+        <Link href='/about'>
+          <Button>Read more</Button>
+        </Link>
       </div>
     </div>
   )
